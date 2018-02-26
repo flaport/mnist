@@ -18,6 +18,7 @@ __pycache__
 log.txt
 
 ## data
+*.csv
 *.data
 *.dat
 *.obj
