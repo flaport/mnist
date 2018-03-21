@@ -9,6 +9,11 @@ requested filetype.
 Note:
     Some of the ubyte conversion code is inspired by the script found here:
     http://pjreddie.com/projects/mnist-in-csv/
+    
+Note:
+    These tools were written before I got to know the fetch_mldata from sklearn.datasets.
+    I leave these tools here for reference, but in the rest of the repository
+    sklearns fetch_mldata is used.
 
 '''
 
