@@ -22,7 +22,7 @@ Some effort was made to make the implementation in different frameworks as simil
 * 03: [Pytorch](03_pytorch_cnn.ipynb)
 
 ### Recurrent Neural Network
-* xy: Tensorflow (todo)
+* 04: [Tensorflow](04_tensorflow_rnn.ipynb)
 * xy: Keras (todo)
 * xy: Pytorch (todo)
 
