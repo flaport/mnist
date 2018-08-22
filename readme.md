@@ -29,3 +29,20 @@ Some effort was made to make the implementation in different frameworks as simil
 ## Other Content
 A Simple file to fetch the MNIST data from its original source ([http://yann.lecun.com/exdb/mnist](http://yann.lecun.com/exdb/mnist)) in a useful form:
 * [fetch_mnist.py](fetch_mnist.py)
+
+## Dependencies
+
+### Python distribution
+* [Anaconda Python 3.6](https://www.anaconda.com/download) or [Miniconda Python 3.6](https://conda.io/miniconda.html)
+
+### General
+* [`numpy`](http://www.numpy.org/): `conda install numpy`
+* [`scipy`](http://www.scipy.org/): `conda install scipy`
+* [`tqdm`](https://pypi.python.org/pypi/tqdm): `conda install tqdm` [progress bars]
+* [`sklearn`](http://scikit-learn.org/): `conda install scikit-learn` [basic learning algorithms]
+* [`matplotlib`](http://matplotlib.org/): `conda install matplotlib` [visualization]
+
+### Deep learning  
+* [`pytorch>=0.4.0`](http://pytorch.org/): `conda install pytorch -c pytorch`
+* [`tensorflow>=1.2`](http://www.tensorflow.org/): `conda install tensorflow-gpu -c anaconda`
+* [`keras`](http://keras.io/): `pip install keras`
