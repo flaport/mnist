@@ -81,13 +81,14 @@ def fetch_mnist(redownload=False, verbose=True):
             data.read(16)
             labels.read(8)
 
-            # keep adding lines to the array until we reach the end
-            # of the file (we break the loop when a TypeError is raised.)
+            # read each byte of the gzip file and save it as a uint8 number
+            # in the numpy array.
             for i in range(npdata.shape[0]):
                 npdata[i,0] = ord(labels.read(1))
                 for j in range(784): # append the data after the label
                     npdata[i, j+1] = ord(data.read(1))
 
+    # save numpy arrays
     np.save('mnist_data/train.npy', train)
     np.save('mnist_data/test.npy', test)
     
