@@ -7,28 +7,37 @@ different frameworks and with different models.
 
 Some effort was made to make the implementation in different frameworks as similar as possible.
 
+
 ## Notebooks
+
 ### Linear Regression
+Simple linear regression on the 784 pixels of the mnist digits.
 * 00: [Linear Regression with sklearn](00_sklearn_linear_model.ipynb)
 
 ### Simple Neural Network (todo)
+A simple feed forward neural network implementation on the 784 pixels of the mnist digits.
 * xy: Tensorflow (todo)
 * xy: Keras (todo)
 * xy: Pytorch (todo)
 
 ### Convolutional Neural Network
+A convolutional neural network implementation on the 28x28 pixel mnist digit images.
 * 01: [Tensorflow](01_tensorflow_cnn.ipynb)
 * 02: [Keras](02_keras_cnn.ipynb)
-* 03: [Pytorch](03_pytorch_cnn.ipynb)
+* 03: [PyTorch](03_pytorch_cnn.ipynb)
 
 ### Recurrent Neural Network
+A recurrent neural network (a single LSTM) recognizing the mnist digits by feeding each image pixel-by-pixel through
+the network (pixel permuted sequential mnist problem).
 * 04: [Tensorflow](04_tensorflow_rnn.ipynb)
 * xy: Keras (todo)
-* xy: Pytorch (todo)
+* 05: [PyTorch](05_pytorch_rnn.ipynb)
+
 
 ## Other Content
-A Simple file to fetch the MNIST data from its original source ([http://yann.lecun.com/exdb/mnist](http://yann.lecun.com/exdb/mnist)) in a useful form:
+A simple file to fetch the MNIST data from its original source ([http://yann.lecun.com/exdb/mnist](http://yann.lecun.com/exdb/mnist)) in a useful form:
 * [fetch_mnist.py](fetch_mnist.py)
+
 
 ## Dependencies
 
