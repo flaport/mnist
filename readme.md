@@ -14,24 +14,30 @@ Some effort was made to make the implementation in different frameworks as simil
 Simple linear regression on the 784 pixels of the mnist digits.
 * 00: [Linear Regression with sklearn](00_sklearn_linear_model.ipynb)
 
-### Simple Neural Network (todo)
-A simple feed forward neural network implementation on the 784 pixels of the mnist digits.
-* xy: Tensorflow (todo)
+### Simple Neural Network
+A simple fully connected feed forward neural network implementation on the 784 pixels of the mnist digits.
+* 01: [Tensorflow](01_tensorflow_fcnn.ipynb)
 * xy: Keras (todo)
 * xy: Pytorch (todo)
 
 ### Convolutional Neural Network
 A convolutional neural network implementation on the 28x28 pixel mnist digit images.
-* 01: [Tensorflow](01_tensorflow_cnn.ipynb)
-* 02: [Keras](02_keras_cnn.ipynb)
-* 03: [PyTorch](03_pytorch_cnn.ipynb)
+* 02: [Tensorflow](02_tensorflow_cnn.ipynb)
+* 03: [Keras](03_keras_cnn.ipynb)
+* 04: [PyTorch](04_pytorch_cnn.ipynb)
 
 ### Recurrent Neural Network
 A recurrent neural network (a single LSTM) recognizing the mnist digits by feeding each image pixel-by-pixel through
 the network (pixel permuted sequential mnist problem).
-* 04: [Tensorflow](04_tensorflow_rnn.ipynb)
+* 05: [Tensorflow](05_tensorflow_rnn.ipynb)
 * xy: Keras (todo)
-* 05: [PyTorch](05_pytorch_rnn.ipynb)
+* 06: [PyTorch](06_pytorch_rnn.ipynb)
+
+### Efficient Unitary Neural Network
+An EUNN recurrent unit recognizing the mnist digits by feeding each image pixel-by-pixel through the network (pixel permuted sequential mnist problem).
+* 06: [Tensorflow](06_tensorflow_eunn.ipynb)
+* xy: Keras (todo)
+* xy: PyTorch (todo)
 
 
 ## Other Content
@@ -51,7 +57,7 @@ A simple file to fetch the MNIST data from its original source ([http://yann.lec
 * [`sklearn`](http://scikit-learn.org/): `conda install scikit-learn` [basic learning algorithms]
 * [`matplotlib`](http://matplotlib.org/): `conda install matplotlib` [visualization]
 
-### Deep learning  
+### Deep learning
 * [`pytorch>=0.4.0`](http://pytorch.org/): `conda install pytorch -c pytorch`
 * [`tensorflow>=1.2`](http://www.tensorflow.org/): `conda install tensorflow-gpu -c anaconda`
 * [`keras`](http://keras.io/): `pip install keras`
