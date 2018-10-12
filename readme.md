@@ -18,24 +18,24 @@ Simple linear regression on the 784 pixels of the mnist digits.
 A simple fully connected feed forward neural network implementation on the 784 pixels of the mnist digits.
 * 01: [Tensorflow](01_tensorflow_fcnn.ipynb)
 * xy: Keras (todo)
-* xy: Pytorch (todo)
+* 02: [Pytorch](02_pytorch_fcnn.ipynb)
 
 ### Convolutional Neural Network
 A convolutional neural network implementation on the 28x28 pixel mnist digit images.
-* 02: [Tensorflow](02_tensorflow_cnn.ipynb)
-* 03: [Keras](03_keras_cnn.ipynb)
-* 04: [PyTorch](04_pytorch_cnn.ipynb)
+* 03: [Tensorflow](02_tensorflow_cnn.ipynb)
+* 04: [Keras](03_keras_cnn.ipynb)
+* 05: [PyTorch](04_pytorch_cnn.ipynb)
 
 ### Recurrent Neural Network
 A recurrent neural network (a single LSTM) recognizing the mnist digits by feeding each image pixel-by-pixel through
 the network (pixel permuted sequential mnist problem).
-* 05: [Tensorflow](05_tensorflow_rnn.ipynb)
+* 06: [Tensorflow](05_tensorflow_rnn.ipynb)
 * xy: Keras (todo)
-* 06: [PyTorch](06_pytorch_rnn.ipynb)
+* 07: [PyTorch](06_pytorch_rnn.ipynb)
 
 ### Efficient Unitary Neural Network
 An EUNN recurrent unit recognizing the mnist digits by feeding each image pixel-by-pixel through the network (pixel permuted sequential mnist problem).
-* 06: [Tensorflow](06_tensorflow_eunn.ipynb)
+* xy: Tensorflow (todo)
 * xy: Keras (todo)
 * xy: PyTorch (todo)
 
