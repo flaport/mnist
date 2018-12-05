@@ -6,6 +6,7 @@ __pycache__
 .DS_Store
 .vscode
 mnist_data
+dev
 
 ###########
 ## Files ##
