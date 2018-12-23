@@ -33,11 +33,11 @@ the network (pixel permuted sequential mnist problem).
 * xy: Keras (todo)
 * 08: [PyTorch](08_pytorch_rnn.ipynb)
 
-### Efficient Unitary Neural Network
-An EUNN recurrent unit recognizing the mnist digits by feeding each image pixel-by-pixel through the network (pixel permuted sequential mnist problem).
+### Efficient Unitary Recurrent Neural Network
+An EUNN recurrent unit ([https://arxiv.org/abs/1612.05231](https://arxiv.org/abs/1612.05231)) recognizing the mnist digits by feeding each image pixel-by-pixel through the network (pixel permuted sequential mnist problem). 
 * xy: Tensorflow (todo)
 * xy: Keras (todo)
-* xy: PyTorch (todo)
+* 09: [PyTorch](09_pytorch_eurnn.ipynb)
 
 
 ## Other Content
